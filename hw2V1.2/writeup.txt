@@ -1,0 +1,57 @@
+CS163 Homework2
+Nan Hu
+
+1. Create an Algorithm 
+  a. create two current pointer point to each list first node
+  b. using while loop to traverse the two list in the same time
+  c. compare the data in each node in the while loop
+  d. until the last node finish comparation
+
+2. Definiion of Terms
+  a. Pointer arithmetic
+     Pointer is a variable that describe the address of data where they store.
+     If a pointer is point to an array. We can do pointer arimthemtic. Also 
+     the subscribe of array is defined by pointer arithmetic. Pointer arithmetic
+     is a method to get exactly address we want by uisng addition, submition, 
+     times, and divide pionter. For example, arr[i] == *(arr + i), this expression
+     will return ture. The left hand side is subscribe of array, and get ith
+     element in arr. The right hand side is pointer arthmetic. Arr is pointing
+     to the first element of array "arr". Then "arr + i" will pioint to the ith
+     element, then dereference this pointer to get ith element of arr.
+  
+  b. Prefix vs. Postfix increment
+     Prefix means increment before other operations. Postfix means increment
+     after some operations. For example, if we say a = ++5 + 1, then a is equal
+     to 7. If we say "a = 5++ + 1", then a is equal to 6, after addition 
+     operation, the 5 will increment 1. Therefore, a = 6, then 5++ is 6 now. 
+     next time if you run this expression again, the a will be 7.
+  
+  c. Deep vs. Shallow copy
+     Basically, is for struct and class. For example, if we have class card, 
+     we want to copy card b data to card a, then we can say a = b. This is 
+     shallow copy. Shallow copy will cause memory leak especially there is 
+     pointer in your class or struct. Deep copy is implemented as function, 
+     and it is copy everything from source to destination variable by varibale.
+     The Deep copy will help you to avoid memory leak especially there is 
+     pointer in your class ans structs.
+  
+  d. Recursion vs. Iteration
+     Recursion happens when a method or function calls itself on a subset of its
+     original argument. For example, we can write the remove last node function
+     by using recursion. It will call this function several times, and each time
+     remove one node. For iteration, let's say there is a function f(x). Iteration
+     is let another function or themselves to be the argument of original function.
+     It will be f(g(x)).
+
+3. Ethics
+  In my point of view, the main function is pretty like client application. It 
+  includes how to start a game; How to play the game step by step; How to count
+  the scores to determine who is gonna win this game. Our .h and other .cpp files
+  is the ADT and detail of managing the data and memory. Let's take our homework
+  card game as an example. I have 3 classes. One class for card. Every card in 
+  game is a data type. One class for unanswered question deck. Last class for 
+  discard deck. We have to determine the data type for each class based on their
+  functionality in game. For unanswered question deck we have to use an ADT
+  which is first in last out. That why we use queue ADT to implement it. When 
+  we create those three class and ADTs, it is really helpful to client promgram
+  which is main function in our homework.        

@@ -1,0 +1,67 @@
+Script started on Mon 28 Apr 2014 08:19:37 PM PDT
+hunan@meson:~/cs163/homework/hw2/hw2V1.2$ ssh quizor2.cs.pdx.eduls[Kvim *queue.cppls[Kcd hw1.1ls[Kcd hw1.1ls[Kvim *queue.cppls[Kssh quizor2.cs.pdx.edu[Kg++ *.cpp
+hunan@meson:~/cs163/homework/hw2/hw2V1.2$ ./a.out
+where do you want to pick card?
+1: question deck
+2: discard deck
+1
+question is: What is my first name?
+Input your answer: n
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+n 1
+question is: What is my hair's color?
+Input your answer: n
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+2
+question is: What is my hair's color?
+Do you want to answer?(Y/N): y
+Input your answer: black
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+2
+question is: What is my first name?
+Do you want to answer?(Y/N): y
+Input your answer: nan
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+2
+no card in discard deck
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+1
+question is: What are my eyes' color?
+Input your answer: black
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+1
+question is: What is my favorite meat?
+Input your answer: lamb
+Play again?(Y/N): y
+where do you want to pick card?
+1: question deck
+2: discard deck
+1
+question is: What is my favorite game?
+Input your answer: dota
+
+
+Win!!!!!!
+
+hunan@meson:~/cs163/homework/hw2/hw2V1.2$ exit
+exit
+
+Script done on Mon 28 Apr 2014 08:20:40 PM PDT

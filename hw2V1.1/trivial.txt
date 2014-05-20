@@ -1,0 +1,8 @@
+What is my first name?	nan
+What is my hair's color?	black
+What are my eyes' color?	black
+What is my favorite meat?	lamb
+What is my favorite game?	dota
+What is my favorite class?	cs163
+What is my favorite color?	blue
+
